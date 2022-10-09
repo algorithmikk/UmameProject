@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, Image } from "react-native";
 const RestaurantItem = ({ restaurant }) => {
   {
     /* the restaurant props is being injected by loading the restaurants.json data
-        this way we can retrieve all the data using the keys for each restaurant */
+        this way we can now retrieve all the data using the keys for each restaurant */
   }
 
   return (
