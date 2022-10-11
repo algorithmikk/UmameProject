@@ -15,7 +15,7 @@ const RestaurantItem = ({ restaurant }) => {
         }}
         style={styles.image}
       />
-      <View style={style.row}>
+      <View style={styles.row}>
         <View>
           <Text style={styles.title}>{restaurant.name}</Text>
           <Text style={styles.subtitle}>
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
   },
   rating:{
     marginLeft: "auto",
-    backgroundColor: "lightgray",
+    backgroundColor: "lightgrey",
     width:30,
     height:30,
     alignItems: "center",
