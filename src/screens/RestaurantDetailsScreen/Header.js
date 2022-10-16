@@ -24,4 +24,4 @@ const RestaurantHeader = ({restaurant}) => {
 };
 
 
-export default RestaurantDetailsPage;
+export default RestaurantHeader;
