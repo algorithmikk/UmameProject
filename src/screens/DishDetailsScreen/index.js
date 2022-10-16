@@ -24,8 +24,8 @@ const DishDetailsScreen = () => {
 
   return (
     <View style={styles.page}>
-      <Text style={Styles.name}>{dish.name}</Text>
-      <Text style={Styles.description}>{dish.description}</Text>
+      <Text style={styles.name}>{dish.name}</Text>
+      <Text style={styles.description}>{dish.description}</Text>
       <View style={styles.separator} />
       <View style={styles.row}>
         <AntDesign

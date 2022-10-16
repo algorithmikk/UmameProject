@@ -11,6 +11,7 @@ export default function App() {
       {/* Restaurant item */}
       {/* the restaurant props is being injected in the index.js of the restaurant item class, the json is loaded */}
       {/* <RestaurantDetailsScreen/ > */}
+      {/* <RestaurantDetailsScreen />  */}
       {/* <HomeScreen /> */}
 
       <DishDetailsScreen/>
