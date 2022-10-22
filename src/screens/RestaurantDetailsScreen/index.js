@@ -1,4 +1,4 @@
-import { View, FlatList, StyleSheet } from "react-native";
+import { View, FlatList} from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import DishListItem from "../../components/DishListItem";
 import restaurants from "../../../assets/data/restaurants.json";
