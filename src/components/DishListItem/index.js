@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   name: {
-    fontWeight: "600",
+    fontWeight: "601",
     fontSize: 16,
     letterSpacing: 0.5,
   },
