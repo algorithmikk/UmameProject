@@ -2,6 +2,7 @@ import { View, Text, StyleSheet, Image, Pressable } from "react-native";
 import {useNavigation} from "@react-navigation/native"
 
 const DishListItem = ({ dish }) => {
+  const navigation = useNavigation();
   return (
     <Pressable onPress={() => navigation.navigate("Dish", {id: dish.id})} style={styles.container}>
       <View style={{ flex: 1 }}>
