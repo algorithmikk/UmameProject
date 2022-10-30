@@ -3,7 +3,6 @@ import restaurants from "../../../assets/data/restaurants.json";
 import styles from "./styles"
 
 const restaurant = restaurants[0];
-("");
 
 const RestaurantHeader = ({restaurant}) => {
   return (
