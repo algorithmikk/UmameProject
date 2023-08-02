@@ -1,19 +1,20 @@
 {
   "staging": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-umame-staging-32420-authRole",
-      "UnauthRoleArn": "arn:aws:iam::907984615491:role/amplify-umame-staging-32420-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::907984615491:role/amplify-umame-staging-32420-authRole",
+      "AuthRoleName": "amplify-umameats-staging-103738-authRole",
+      "UnauthRoleArn": "arn:aws:iam::907984615491:role/amplify-umameats-staging-103738-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::907984615491:role/amplify-umameats-staging-103738-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-umame-staging-32420-deployment",
-      "UnauthRoleName": "amplify-umame-staging-32420-unauthRole",
-      "StackName": "amplify-umame-staging-32420",
-      "StackId": "arn:aws:cloudformation:us-east-1:907984615491:stack/amplify-umame-staging-32420/d7275190-5a5d-11ed-8883-0ad30784c895",
-      "AmplifyAppId": "d1xu7oo1jgq7t8"
+      "DeploymentBucketName": "amplify-umameats-staging-103738-deployment",
+      "UnauthRoleName": "amplify-umameats-staging-103738-unauthRole",
+      "StackName": "amplify-umameats-staging-103738",
+      "StackId": "arn:aws:cloudformation:us-east-1:907984615491:stack/amplify-umameats-staging-103738/9a099da0-3120-11ee-8663-12c27298f083",
+      "AmplifyAppId": "dazazoonhtfmc"
     },
     "categories": {
       "auth": {
-        "umame": {}
+        "umame": {},
+        "UmaMeats": {}
       }
     }
   }

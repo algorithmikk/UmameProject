@@ -1,6 +1,6 @@
 {
   "auth": {
-    "umame": {
+    "UmaMeats": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -9,7 +9,10 @@
           "SMS"
         ],
         "passwordProtectionSettings": {
-          "passwordPolicyCharacters": [],
+          "passwordPolicyCharacters": [
+            "REQUIRES_LOWERCASE",
+            "REQUIRES_UPPERCASE"
+          ],
           "passwordPolicyMinLength": 6
         },
         "signupAttributes": [],
